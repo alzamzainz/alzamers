@@ -151,12 +151,23 @@
 .konsul-btn svg {
     margin-right: 10px;
 }
+
 .wraputama-btn {
     display: flex;
     gap: 20px;
     align-items: center;
     justify-content:left;
 }
+
+
+.wraputama2-btn {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content:center;
+    padding-bottom: 20px;
+}
+
 
 .promo {
     text-align: center;
@@ -198,10 +209,12 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    gap: 100px;
+    gap: 60px;
     padding: 40px;
+
 }
 
+/* Card Design Graphic start */
 .card-dg {
     background-color: white;
     padding: 30px 35px 30px 35px;
@@ -215,6 +228,7 @@
 .text-dg {
     display: flex;
     flex-direction: column;
+    width: 342px;
     gap: 30px;
 }
 
@@ -247,11 +261,107 @@
     text-align: right;
 }
 
+/* Card Design Graphic end */
 
 
+/* Card Fotografi start */
+.card-fg {
+    background-color: white;
+    padding: 30px 35px 30px 35px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    box-shadow: 0px 0px 20px rgba(74, 52, 160, 0.12);
+}
+
+.text-fg {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 342px;
+}
+
+.text-fg h1 {
+    font-family: 'SF-Pro-Regu';
+    letter-spacing: -0.05em;
+    font-size: 18pt;
+}
+
+.text-fg p {
+    font-family: 'SF-Pro-Regu';
+    font-size: 12pt;
+    line-height: 170%;
+}
+
+.card-fg button {
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    color: #7e7e7e;
+    font-family: 'SF-Pro-Med';
+    padding: 10px 40px 10px 40px;
+    border-radius: 25px;
+    border-color: #7e7e7e;
+    border-width: 1px;
+}
+
+.button-wrap-fg {
+    justify-content: right;
+    text-align: right;
+}
+
+/* Card Fotografi end */
 
 
+/* Card Videografi start */
+.card-vg {
+    background-color: white;
+    padding: 30px 35px 30px 35px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    box-shadow: 0px 0px 20px rgba(74, 52, 160, 0.12);
+}
 
+.text-vg {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 342px;
+}
+
+.text-vg h1 {
+    font-family: 'SF-Pro-Regu';
+    letter-spacing: -0.05em;
+    font-size: 18pt;
+}
+
+.text-vg p {
+    font-family: 'SF-Pro-Regu';
+    font-size: 12pt;
+    line-height: 170%;
+}
+
+.card-vg button {
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    color: #7e7e7e;
+    font-family: 'SF-Pro-Med';
+    padding: 10px 40px 10px 40px;
+    border-radius: 25px;
+    border-color: #7e7e7e;
+    border-width: 1px;
+}
+
+.button-wrap-vg {
+    justify-content: right;
+    text-align: right;
+}
+
+/* Card Videografi end */
 
 
 
