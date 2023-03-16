@@ -107,7 +107,7 @@
 
 
 .utama {
-    padding: 10px 100px 10px 100px;
+    padding: 10px 100px 0px 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -137,14 +137,20 @@
 }
 .konsul-btn {
     color: #ffffff;
+    display: flex;
+    flex-direction: row;
     background-color: #4A34A0;
     border-style: none;
     border-radius: 25px;
     font-family: 'SF-Pro-Regu';
     font-size: 15px;
     padding: 12px 24px 12px 24px;
+
 }
 
+.konsul-btn svg {
+    margin-right: 10px;
+}
 .wraputama-btn {
     display: flex;
     gap: 20px;
